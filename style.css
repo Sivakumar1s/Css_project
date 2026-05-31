@@ -349,8 +349,8 @@ font-size: 4rem;
 }
 .in
 {
-width: 1600px;
-display: flex;
+
+display: inline;
 justify-content: center;
 }
 .inp
