@@ -47,7 +47,7 @@ align-items: center;
 .subheading3
 {
     margin-top: 30px;
-    margin-left: 400px;
+    margin-left: 0px;
     font-size: 2em;
     padding: 20px;
     background-color: blueviolet;
@@ -62,13 +62,8 @@ align-items: center;
 {
 margin-top: 50px;
 display: flex;
+justify-content: space-around;
 height: 800px;
-transition: all ease;
-position: sticky;
-}
-.container1:hover
-{
-    transform: translate(10px 10px);
 }
 .text
 {
@@ -77,24 +72,24 @@ margin-top: 100px;
 }
 .text p
 {
-    margin-left: 120px;
+    margin-left: 0px;
     font-size: 23px;
     color: blueviolet;
 }
 .text p1
 {
     font-style: normal;
-    margin-left: 120px;
+    margin-left: 0px;
     font-size: 5rem;
 }
 .text p2
 {
-    margin-left: 120px;
+    margin-left: 0px;
     font-size: 5rem;
 }
 .text2 p
 {
-    margin-left: 120px;
+    margin-left: 0px;
     font-size: 20px;
     color: gray;
     margin-top: 40px;
@@ -102,7 +97,7 @@ margin-top: 100px;
 }
 .text2 p1
 {
-    margin-left: 120px;
+    margin-left: 0px;
     font-size: 20px;
     color: gray;
     
@@ -112,7 +107,7 @@ margin-top: 100px;
     display: flex;
     gap: 20px;
     margin-top: 60px;
-    margin-left: 120px;
+    margin-left: 0px;
 }
 .circle
 {
@@ -163,40 +158,51 @@ position: absolute;
 .t{
     color: blueviolet;
     font-size: 2rem;
-    margin-left: 700px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
 
 }
 .t1
 {
     margin-top: 20px;
-    margin-left: 370px;
+    margin-left: 0px;
     display: flex;
+    justify-content: center;
 font-size: 5rem;
 }
 .t3
 {
-    margin-left: 500px;
+    margin-left: 0px;
     margin-top: 20px;
     font-size: 25px;
     color: grey;
+    display: flex;
+    justify-content: center;
 }
 .t4
 {
-     margin-left: 530px;
+     margin-left: 0px;
     margin-top: 20px;
     font-size: 25px;
     color: gray;
+    display: flex;
+    justify-content: center;
 }
 .t5
 {
-     margin-left: 580px;
+     margin-left: 0px;
     margin-top: 20px;
     font-size: 25px;
     color: gray;
+    display: flex;
+    justify-content: center;
+
 }
 .appheading
 {
     display: flex;
+    justify-content: center;
     margin-top: 40px;
     gap: 40px;
 
@@ -206,7 +212,7 @@ font-size: 5rem;
     width: 300px;
     padding: 20px;
     border-radius: 4px;
-    margin-left: 700px;
+    margin-left: 0px;
     border: 2px solid gray;
     font-size: 2rem;
     color: blueviolet;
@@ -246,92 +252,54 @@ width: 96%;
 {
     font-size: 26px;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
-.container5 .t1
+.container5 .tee1
 {
     margin-top: 10px;
-    margin-left: 600px;
+    margin-left: 0spx;
     font-size: 4rem;
-    transition: all ease-in-out;
+    display: flex;
+    justify-content: center;
 }
 .container6
 {
-    margin-top: 200px;
+    margin-top: 170px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     gap: 40px;
 }
 .container6 i
 {
+    margin-top: 100px;
 color: blueviolet;
 font-size: 4rem;
 }
-.container6 .t1  
+.container6 .adv span 
 {
-    margin-left: 0px;
-    display: inline;
-    font-size: 30px;
-}
-.container6 span1 p
-{
-    margin-top: 40px;
     font-size: 2.6rem;
+    color: black;
 }
-.container6 span2 p
-{
-    margin-top: 30px;
-    color: grey;
-}
-.container6 span3 p
-{
-    margin-top: 10px;
-    color: grey;
-}
-.container6 span4 p
-{
-    margin-top: 40px;
-    font-size: 2.6rem;
-}
-.container6 span5 p
-{
-    margin-top: 30px;
-    color: grey; 
-    font-size: 2rem;
-   
-}
-.container6 span6 p
-{
-    margin-top: 10px;
-    color: grey;
-     font-size: 2rem;
-}
-.container6 .t2
-{
-    margin-left: 0px;
-    margin-top: 20px;
-}
-.container6 .t3
-{
-    margin-left: 0px;
-}
-.container6 span7 p
+.container6 .cus span 
 {
     margin-top: 40px;
     font-size: 2.6rem;
     color: black;
 }
-.container6 span8 p
+.container6 .int span 
 {
-    margin-top: 30px;
+    margin-top: 40px;
+    font-size: 2.6rem;
+    color: black;
+}
+.container6 ul p
+{
+    line-height: 50px;
     color: grey; 
     font-size: 2rem;
    
-}
-.container6 span9 p
-{
-    margin-top: 10px;
-    color: grey;
-     font-size: 2rem;
 }
 .container7
 {
@@ -339,29 +307,34 @@ font-size: 4rem;
     height: 800px;
     background-color: lavender;
 }
-.container7 .t1 p
+.container7 .kk
 {
     margin-top: 150px;
-    margin-left: 450px;
+    margin-left: 0px;
     font-size: 8rem;
     color: blueviolet;
+    display: flex;
+    justify-content: center;
 }
-.container7 .t2 
+.container7 .our
 {
-    margin-left: 500px;
+    margin-left: 0px;
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
 }
-.container7 .t3
+.container7 .the
 {
-    margin-left: 700px;
+    margin-left: 0px;
     margin-top: 10px;
-    font-size: 50px;
-    color: black;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
 }
 .container7 input
 {
-    margin-left: 400px;
+    margin-left: 0px;
     margin-top: 30px;
     width: 700px;
     height: 70px;
@@ -374,8 +347,9 @@ font-size: 4rem;
 .container7 .join p{
     font-size: 30px;
     margin-top: 30px; 
-    margin-left: 410px;
+    margin-left: 10px;
     border-radius: 5px;
+    width: 200px;
     padding: 20px;
     color: white;
     background-color: blueviolet;
@@ -385,12 +359,17 @@ font-size: 4rem;
     flex-direction:column;
     width:700px;
 }
+.inp
+{
+    display: flex;
+    justify-content: space-around;
+}
 .message, .success{
     display:none;
     margin-top:20px;
     font-size:1.5rem;
     font-weight:bold;
-    margin-left: 500px;
+    margin-left: 0px;
 }
 
 #box:focus:invalid + .message{
