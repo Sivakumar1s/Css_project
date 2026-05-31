@@ -1,0 +1,1140 @@
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    position: relative;
+}
+.container0
+{
+    background-color: lavender;
+}
+.heading
+{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.subheading1
+{
+    display: flex;
+    justify-content: center;
+align-items: center;
+    font-size: 3rem;
+
+}
+.subheading2
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.5rem;
+    
+}
+.subheading3
+{
+    margin-top: 30px;
+    margin-left: 400px;
+    font-size: 2em;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container1
+{
+margin-top: 50px;
+display: flex;
+height: 800px;
+transition: all ease;
+position: sticky;
+}
+.container1:hover
+{
+    transform: translate(10px 10px);
+}
+.text
+{
+margin-top: 100px;
+
+}
+.text p
+{
+    margin-left: 120px;
+    font-size: 23px;
+    color: blueviolet;
+}
+.text p1
+{
+    font-style: normal;
+    margin-left: 120px;
+    font-size: 5rem;
+}
+.text p2
+{
+    margin-left: 120px;
+    font-size: 5rem;
+}
+.text2 p
+{
+    margin-left: 120px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 40px;
+    
+}
+.text2 p1
+{
+    margin-left: 120px;
+    font-size: 20px;
+    color: gray;
+    
+}
+.audio
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.circle
+{
+
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border: 2px solid blueviolet;
+    border-radius: 100%;
+}
+.atext h3
+{
+    font-size: 1.5rem;
+}
+.image
+{
+    margin-left: 200px;
+    position: relative;
+}
+.imgback
+{
+    margin-left: 40px;
+    border: 2px solid blueviolet;
+    width: 350px;
+    height: 630px;
+}
+.img1 img
+{
+    position: absolute;
+    margin-left: -80px ;
+    margin-top: -60px;
+}
+.img2
+{
+margin-top: -280px;
+margin-left: 165px;
+position: absolute;
+}
+.img3
+{
+    margin-left: 370px;
+    margin-top: -550px;
+}
+.container3
+{
+    margin-top: 200px;
+}
+.t{
+    color: blueviolet;
+    font-size: 2rem;
+    margin-left: 700px;
+
+}
+.t1
+{
+    margin-top: 20px;
+    margin-left: 370px;
+    display: flex;
+font-size: 5rem;
+}
+.t3
+{
+    margin-left: 500px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: grey;
+}
+.t4
+{
+     margin-left: 530px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: gray;
+}
+.t5
+{
+     margin-left: 580px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: gray;
+}
+.appheading
+{
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+
+}
+.appstore
+{
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    margin-left: 700px;
+    border: 2px solid gray;
+    font-size: 2rem;
+    color: blueviolet;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.playstore
+{
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 2px solid gray;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.container4
+{
+    margin-top: 150px;
+}
+.container4 img
+{
+    margin-left: 40px;
+width: 96%;
+}
+.container5
+{
+    margin-top: 200px;
+}
+.container5 .t
+{
+    font-size: 26px;
+    margin-top: 10px;
+}
+.container5 .t1
+{
+    margin-top: 10px;
+    margin-left: 600px;
+    font-size: 4rem;
+    transition: all ease-in-out;
+}
+.container6
+{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+.container6 i
+{
+color: blueviolet;
+font-size: 4rem;
+}
+.container6 .t1  
+{
+    margin-left: 0px;
+    display: inline;
+    font-size: 30px;
+}
+.container6 span1 p
+{
+    margin-top: 40px;
+    font-size: 2.6rem;
+}
+.container6 span2 p
+{
+    margin-top: 30px;
+    color: grey;
+}
+.container6 span3 p
+{
+    margin-top: 10px;
+    color: grey;
+}
+.container6 span4 p
+{
+    margin-top: 40px;
+    font-size: 2.6rem;
+}
+.container6 span5 p
+{
+    margin-top: 30px;
+    color: grey; 
+    font-size: 2rem;
+   
+}
+.container6 span6 p
+{
+    margin-top: 10px;
+    color: grey;
+     font-size: 2rem;
+}
+.container6 .t2
+{
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.container6 .t3
+{
+    margin-left: 0px;
+}
+.container6 span7 p
+{
+    margin-top: 40px;
+    font-size: 2.6rem;
+    color: black;
+}
+.container6 span8 p
+{
+    margin-top: 30px;
+    color: grey; 
+    font-size: 2rem;
+   
+}
+.container6 span9 p
+{
+    margin-top: 10px;
+    color: grey;
+     font-size: 2rem;
+}
+.container7
+{
+    margin-top: 200px;
+    height: 800px;
+    background-color: lavender;
+}
+.container7 .t1 p
+{
+    margin-top: 150px;
+    margin-left: 450px;
+    font-size: 8rem;
+    color: blueviolet;
+}
+.container7 .t2 
+{
+    margin-left: 500px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.container7 .t3
+{
+    margin-left: 700px;
+    margin-top: 10px;
+    font-size: 50px;
+    color: black;
+}
+.container7 input
+{
+    margin-left: 400px;
+    margin-top: 30px;
+    width: 700px;
+    height: 70px;
+    padding: 10px;
+}
+.mail
+{
+    display: flex;
+}
+.container7 .join p{
+    font-size: 30px;
+    margin-top: 30px; 
+    margin-left: 410px;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    background-color: blueviolet;
+}
+.email-box{
+    display:flex;
+    flex-direction:column;
+    width:700px;
+}
+.message, .success{
+    display:none;
+    margin-top:20px;
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-left: 500px;
+}
+
+#box:focus:invalid + .message{
+    display:block;
+    color:red;
+}
+#box:valid ~ .success{
+    display:block;
+    color:green;
+}
+.container7 .t4
+{
+font-size: 30px;
+margin-left: 500px;
+margin-top: 20px;
+}
+.container8
+{
+    display: flex;
+    justify-content: space-around;
+}
+.image1
+{
+    margin-top: 100px;
+}
+.text1
+{
+    margin-top: 100px;
+
+}
+.container8 .icon
+{
+    margin-top: 30px;
+}
+.container8 .icon i
+{
+    font-size: 3rem;
+    color: blueviolet;
+    background-color: lightgrey;
+    padding: 15px;
+    border-radius: 30%;
+}
+.container8 .textt1
+{
+    margin-top: 60px;
+    font-size: 4rem;
+}
+.container8 .textt2
+{
+    margin-top: 5px;
+    font-size: 4rem;
+}
+.container8 .textt3
+{
+    margin-top: 5px;
+    font-size: 2rem;
+    color: grey;
+}
+.container8 .textt3 .tt1
+{
+margin-top: 40px;
+}
+.container8 .textt3 .tt
+{
+margin-top: 10px;
+}
+
+.container8 .see
+{
+    margin-top: 70px;
+}
+.container8 .see p
+{
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    border: 3px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.container9
+{
+    margin-top: 200px;
+    display: flex;
+    height: 800px;
+    justify-content: space-around;
+
+}
+.text02 .te1
+{
+    color: blueviolet;
+margin-top: 40px;
+font-size: 1.5rem;
+}
+.text02 .te2
+{
+margin-top: 25px;
+font-size: 4.5rem;
+}
+.text02 .tet1
+{
+    margin-top: 30px;
+    font-size: 2rem;
+    color: gray;
+}
+.text02 .tet
+{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: gray;
+}
+.link
+{
+    margin-top: 60px;
+    display: flex;
+}
+
+.link i
+{
+    padding: 16px;
+    border-radius: 30%;
+    background-color: lightgrey;
+    color: blueviolet;
+    font-size: 3.5rem;
+}
+.mic
+{
+    margin-top: 25px;
+    display: flex;
+}
+.mic i
+{
+    padding: 16px;
+    border-radius: 30%;
+    background-color: lightgrey;
+    color: blueviolet;
+    font-size: 3.5rem;
+}
+.tete p
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+.tete1 p
+{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+}
+.container10
+{
+    background-color: lightgray;
+    height: 800px;
+    
+}
+.container10 .to1
+{
+    margin-top: 10px;
+    font-size: 2rem;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.container10 .to2
+{
+    margin-top: 15px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.mainbox
+{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1
+{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
+.box2
+{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
+.box3
+{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+}
+.box1 .b1
+{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box1 .star
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box1 .b2
+{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: gray;
+}
+.box1 .bb2
+{
+    margin-top: 10px;
+}
+.box1 .bb3
+{
+    margin-top: 10px;
+}
+.box1 .bb4
+{
+    margin-top: 10px;
+}
+.name
+{
+    margin-top: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.box2 .b1
+{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box2 .star
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box2 .b2
+{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: gray;
+}
+.box2 .bb2
+{
+    margin-top: 10px;
+}
+.box2 .bb3
+{
+    margin-top: 10px;
+}
+.box2 .bb4
+{
+    margin-top: 10px;
+}
+.name
+{
+    margin-top: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.box3 .b1
+{
+    font-size: 2.5rem;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.box3 .star
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.box3 .b2
+{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 100px;
+    color: gray;
+}
+.box3 .bb2
+{
+    margin-top: 10px;
+}
+.box3 .bb3
+{
+    margin-top: 10px;
+}
+.box3 .bb4
+{
+    margin-top: 10px;
+}
+.name
+{
+    margin-top: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    padding:80px 5%;
+    background:white;
+}
+
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.footer-box{
+    flex:1;
+    min-width:220px;
+}
+
+.footer-box h2{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.footer-box h3{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.footer-box p{
+    font-size: 1.5rem;
+    line-height:1.2;
+}
+
+.footer-box ul{
+    list-style:none;
+}
+
+.footer-box ul li{
+    margin:15px 0;
+    color:gray;
+    font-size:1.2rem;
+}
+
+.social-icons{
+    margin-top:35px;
+    display:flex;
+    gap:20px;
+}
+
+.social-icons i{
+    font-size:1.8rem;
+    cursor:pointer;
+}
+.footer-box ul li
+{
+font-size: 1.5rem;
+}
+
+.footer hr{
+    margin:60px 0 30px;
+    border:none;
+    border-top:1px solid gainsboro;
+}
+
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-bottom p{
+    color:gray;
+    font-size:1.5rem;
+}
+
+.footer-links{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.footer-links a{
+    text-decoration:none;
+    color:black;
+    font-size: 1.7rem;
+}
+.subheading2 a{
+    text-decoration:none;
+    color:black;
+    transition:0.3s;
+}
+
+.subheading2 a:hover{
+    color:blueviolet;
+}
+
+.subheading3,
+.appstore,
+.playstore,
+.see p,
+.join p{
+    transition:0.3s;
+    cursor:pointer;
+}
+.appstore:hover{
+    background:blueviolet;
+    color:white;
+}
+
+.playstore:hover{
+    background:black;
+}
+
+.see p:hover{
+    background:blueviolet;
+    color:white;
+}
+
+.join p:hover{
+    background:black;
+}
+
+.social-icons i{
+    transition:0.3s;
+}
+
+.social-icons i:hover{
+    color:blueviolet;
+    transform:scale(1.2);
+}
+
+.footer-links a{
+    transition:0.3s;
+}
+
+.footer-links a:hover{
+    color:blueviolet;
+}
+/* TABLET VIEW */
+@media screen and (max-width: 1024px){
+
+    .container1,
+    .container8,
+    .container9{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .container6{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .mainbox{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .subheading3{
+        margin-left: 0;
+    }
+
+    .image{
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .appheading{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .appstore{
+        margin-left: 0;
+    }
+
+    .container7 input{
+        width: 90%;
+        max-width: 700px;
+        margin-left: 0;
+    }
+
+    .mail{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container7 .t1 p,
+    .container7 .t2,
+    .container7 .t3,
+    .container7 .t4{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+/* MOBILE VIEW  */
+@media screen and (max-width: 768px){
+
+    .heading{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .subheading1{
+        font-size: 2rem;
+    }
+
+    .subheading2{
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 1rem;
+    }
+
+    .subheading3{
+        width: auto;
+        margin: 0;
+        font-size: 1rem;
+        padding: 12px 20px;
+    }
+
+    .container1{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .text{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .text p,
+    .text p1,
+    .text p2,
+    .text2 p,
+    .text2 p1{
+        margin-left: 0;
+    }
+
+    .text p1,
+    .text p2{
+        font-size: 2.5rem;
+    }
+
+    .audio{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .image{
+        margin-left: 0;
+        transform: scale(0.7);
+    }
+
+    .imgback{
+        width: 250px;
+        height: 450px;
+    }
+
+    .container3,
+    .container5,
+    .container7,
+    .container10{
+        text-align: center;
+    }
+
+    .t,
+    .t1,
+    .t3,
+    .t4,
+    .t5{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .t1{
+        font-size: 2.5rem;
+    }
+
+    .appheading{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .appstore,
+    .playstore{
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .container4 img{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .container5 .t1{
+        margin-left: 0;
+        font-size: 2.5rem;
+    }
+
+    .container6{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container7{
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .container7 .t1 p{
+        font-size: 4rem;
+        margin-left: 0;
+    }
+
+    .container7 .t2,
+    .container7 .t3,
+    .container7 .t4{
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .container7 input{
+        width: 100%;
+    }
+
+    .join p{
+        margin-left: 0 !important;
+    }
+
+    .container8{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container8 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .container8 .textt1,
+    .container8 .textt2{
+        font-size: 2.2rem;
+    }
+
+    .container8 .textt3{
+        font-size: 1rem;
+    }
+
+    .container9{
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .image2 img{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .text02 .te2{
+        font-size: 2.5rem;
+    }
+
+    .text02 .tet1,
+    .text02 .tet{
+        font-size: 1rem;
+    }
+
+    .link,
+    .mic{
+        justify-content: center;
+    }
+
+    .container10{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .container10 .to2{
+        font-size: 3rem;
+    }
+
+    .mainbox{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1,
+    .box2,
+    .box3{
+        width: 95%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .box1 .b2,
+    .box2 .b2,
+    .box3 .b2{
+        margin-left: 0;
+        text-align: center;
+    }
+       .footer{
+        padding:50px 20px;
+    }
+
+    .footer-box h2{
+        font-size:2rem;
+    }
+
+    .footer-box h3{
+        font-size:1.5rem;
+    }
+
+    .footer-box p,
+    .footer-box ul li{
+        font-size:1rem;
+    }
+
+    .footer-links{
+        justify-content:center;
+        gap:15px;
+    }
+
+    .footer-links a{
+        font-size:1rem;
+    }
+}
