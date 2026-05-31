@@ -72,19 +72,11 @@ margin-top: 100px;
 }
 .text p
 {
-    margin-left: 0px;
-    font-size: 23px;
+    font-size: 2rem;
     color: blueviolet;
 }
-.text p1
+.text ul
 {
-    font-style: normal;
-    margin-left: 0px;
-    font-size: 5rem;
-}
-.text p2
-{
-    margin-left: 0px;
     font-size: 5rem;
 }
 .text2 p
@@ -97,7 +89,6 @@ margin-top: 100px;
 }
 .text2 p1
 {
-    margin-left: 0px;
     font-size: 20px;
     color: gray;
     
@@ -124,7 +115,6 @@ margin-top: 100px;
 }
 .image
 {
-    margin-left: 200px;
     position: relative;
 }
 .imgback
@@ -310,7 +300,6 @@ font-size: 4rem;
 .container7 .kk
 {
     margin-top: 150px;
-    margin-left: 0px;
     font-size: 8rem;
     color: blueviolet;
     display: flex;
@@ -318,7 +307,6 @@ font-size: 4rem;
 }
 .container7 .our
 {
-    margin-left: 0px;
     margin-top: 50px;
     font-size: 3.5rem;
     display: flex;
@@ -359,6 +347,12 @@ font-size: 4rem;
     flex-direction:column;
     width:700px;
 }
+.in
+{
+width: 1900px;
+display: flex;
+justify-content: center;
+}
 .inp
 {
     display: flex;
@@ -383,7 +377,7 @@ font-size: 4rem;
 .container7 .t4
 {
 font-size: 30px;
-margin-left: 500px;
+margin-left: 0px;
 margin-top: 20px;
 }
 .container8
